@@ -31,7 +31,6 @@ Router.map(function() {
       path: ':article_id/edit'
     });
   });
-  this.route('loans');
 });
 
 export default Router;
