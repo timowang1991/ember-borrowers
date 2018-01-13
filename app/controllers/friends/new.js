@@ -9,6 +9,8 @@ export default Controller.extend({
         },
         cancel() {
             console.log('+- cancel action in friends new controller');
+
+            this.transitionToRoute('friends.index');
         }
     }
 });
